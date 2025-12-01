@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jadwal SAS Akhir Semester • SMP Harapan Bangsa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+
+  <div class="container">
+
+    <!-- Pilih Kelas -->
+    <div id="pilihKelas" class="screen active">
+      <div class="header">
+        <h1>SMP Harapan Bangsa</h1>
+        <p class="subtitle">Penilaian Sumatif Akhir Semester Gasal<br>Tahun Pelajaran 2025/2026</p>
+      </div>
+
+      <div class="kelas-wrapper">
+        <div class="kelas-card" data-kelas="7">
+          <div class="icon">7</div>
+          <h3>Kelas 7</h3>
+        </div>
+        <div class="kelas-card" data-kelas="8">
+          <div class="icon">8</div>
+          <h3>Kelas 8</h3>
+        </div>
+        <div class="kelas-card" data-kelas="9">
+          <div class="icon">9</div>
+          <h3>Kelas 9</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jadwal -->
+    <div id="jadwalUjian" class="screen">
+      <div class="header-jadwal">
+        <h2>Jadwal SAS • Kelas <span id="namaKelas"></span></h2>
+        <div class="actions">
+          <button onclick="window.print()" class="btn-print"><i class="fas fa-print"></i> Print</button>
+          <button onclick="shareWA()" class="btn-wa"><i class="fab fa-whatsapp"></i> Bagikan WA</button>
+          <button id="btnKembali" class="btn-back">Kembali</button>
+        </div>
+      </div>
+
+      <div id="jadwalContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
