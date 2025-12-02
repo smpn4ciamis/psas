@@ -5,8 +5,8 @@ const jadwalPerKelas = {
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (A, B, C)", link:"https://script.google.com/macros/s/AKfycbwZ8gP71Sri_CyZlJ6aH0epMOefJ6ddl5sQkx63mo7mLKpvhPIWsKB5eCkfIOtDOE7r/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (D, E, F, G)", link:"https://script.google.com/macros/s/AKfycbyMI3pq0ogVJwE22xead_pzTm4Abk-FCzmY23VoXPHvvUXNRSwgNEZLbriGdrwC5h2e/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:"https://script.google.com/macros/s/AKfycbyKVU3Ahqp9ne0sQKlr7jj6PqmwI-V8tjXToNPzReuJ2o6IIvNII9igy51_Vsenv09E/exec"},
-    {hari:"Rabu", tanggal:"03 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (D, E, F, G)", link:""},
-    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:""},
+    {hari:"Rabu", tanggal:"03 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPA", link:""},
+    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Sunda", link:"https://script.google.com/macros/s/AKfycbwH-OY_32yA5XS_uTM34hfoEPvRqwLiiYuW-0s1GtEz27kRSy_zy8wMYq7TjLBbWZz4/exec"},
     // tambahkan sesuai kebutuhan
     // tambahkan sesuai kebutuhan
   ],
@@ -78,6 +78,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
