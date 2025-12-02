@@ -19,7 +19,7 @@ const jadwalPerKelas = {
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
     {hari:"Senin", tanggal:"01 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Indonesia", link:""},
-    {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris", link:""},
+    {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris", link:"https://script.google.com/macros/s/AKfycbyQ-jbXFd2-7xQGZXW4f6EKz_JaYU9FhMomSey4ObMVg6IknAjYRzuPiYWAtxm_rdmeEw/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:"https://docs.google.com/forms/d/1falVelOLKFsECZeWz5cinxBE01s6i5x1nYVB8lzXt8Q/viewform?edit_requested=true"},
   ]
 };
@@ -72,6 +72,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
