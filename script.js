@@ -14,13 +14,13 @@ const jadwalPerKelas = {
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (A, B)", link:"https://script.google.com/macros/s/AKfycbzzQxH4Y1bIhwzHuaY10pJ29Mmv3ZrLPixF7sOvVkMR7TSlgrV7L-Uf12Wx9yJ8GlMf/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (C, D, E, F, G)", link:"https://script.google.com/macros/s/AKfycbydTmCDa28GS2_M3nBNfSwz0uALkEa_KkgWxnZaWrluPkix3hkMzxBcc6FFvqN7b25Gbg/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (A, B, C, D)", link:"https://script.google.com/macros/s/AKfycbwBMjDhHeuZSpLyFuuAQR0yTObr6xFIgadAC9n9PygtAN-K_2Q3KDwtjTm4YgT7NuR9/exec"},
-        {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (E, F, G)", link:"https://docs.google.com/forms/d/15og6G6V1bhawZWlwLb5QFaSE71BksreraA6RTjG9xdY/viewform?edit_requested=true"},
+        {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (E, F, G)", link:"https://docs.google.com/forms/d/e/1FAIpQLSfceQEI5jugFVRFaWwtGj5JAHOcjdgY-b04vtRTsE7G_cyQVw/viewform?usp=dialog"},
   ],
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
     {hari:"Senin", tanggal:"01 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Indonesia", link:""},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris", link:"https://script.google.com/macros/s/AKfycbyQ-jbXFd2-7xQGZXW4f6EKz_JaYU9FhMomSey4ObMVg6IknAjYRzuPiYWAtxm_rdmeEw/exec"},
-    {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:"https://docs.google.com/forms/d/1falVelOLKFsECZeWz5cinxBE01s6i5x1nYVB8lzXt8Q/viewform?edit_requested=true"},
+    {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:"https://docs.google.com/forms/d/e/1FAIpQLScyY50HGHRlEXtLZcsuQe4_a81lvD9iPfXjqzhH3Eh8bufr5w/viewform?usp=dialog"},
   ]
 };
 
@@ -72,6 +72,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
