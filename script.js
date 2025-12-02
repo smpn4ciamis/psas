@@ -19,8 +19,8 @@ const jadwalPerKelas = {
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (C, D, E, F, G)", link:"https://script.google.com/macros/s/AKfycbydTmCDa28GS2_M3nBNfSwz0uALkEa_KkgWxnZaWrluPkix3hkMzxBcc6FFvqN7b25Gbg/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (A, B, C, D)", link:"https://script.google.com/macros/s/AKfycbzeCpkCLxGo3m_erGMxP40JRXnWP-EkrTNsbkli0PI89z6eCOVUq80EViKjFRdsmHU1/exec"},
         {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (E, F, G)", link:"https://script.google.com/macros/s/AKfycbxrvoPT6aYpm0s5G0qh8QUQylqjl6qg7DpGJPDucXHVeC01Za4hlBic78-DDx5Y5OJ-GQ/exec"},
-        {hari:"Rabu", tanggal:"03 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPA", link:""},
-    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Sunda", link:""},
+        {hari:"Rabu", tanggal:"03 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPA", link:"https://script.google.com/macros/s/AKfycbyNb9AGC5727rXE3AZwSj25fCn0wyl7ZYPYJf1PwyAp5fLTF2ozfzSaQlByRFf4-abc/exec"},
+    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Sunda", link:"https://script.google.com/macros/s/AKfycbxhy4OM5_08RyBGRV-g7xt4uOxd0edt3yU4vgF7-xRWY8Wm9XuH5UQF9KvDMcJLPlAJnw/exec"},
   ],
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
@@ -28,7 +28,7 @@ const jadwalPerKelas = {
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris", link:"https://script.google.com/macros/s/AKfycbyQ-jbXFd2-7xQGZXW4f6EKz_JaYU9FhMomSey4ObMVg6IknAjYRzuPiYWAtxm_rdmeEw/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila", link:"https://script.google.com/macros/s/AKfycbxBq74IG8LqN-DOO74UPQUsXbXyOjoaI0ue0Am2CV-bwlwyXpJR5HTQUV5gf9DVxUthqQ/exec"},
         {hari:"Rabu", tanggal:"03 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPA", link:"https://script.google.com/macros/s/AKfycby273RA4a0b-OK42cxx79cjsdRLrFpPxy1jZjJOiAF39STj_jjlEqiVaLKkkIBRDxsDcQ/exec"},
-    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Sunda", link:""},
+    {hari:"Rabu", tanggal:"03 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Bahasa Sunda", link:"https://script.google.com/macros/s/AKfycbxC3UdU-zeY8NxJwJnlsyDn9q6h3MToi518T-8ygEgVnO-N1a8bZ1qBHmPQu6Xjdy2ewg/exec"},
   ]
 };
 
@@ -80,6 +80,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
