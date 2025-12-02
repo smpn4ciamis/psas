@@ -14,7 +14,7 @@ const jadwalPerKelas = {
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (A, B)", link:"https://script.google.com/macros/s/AKfycbzzQxH4Y1bIhwzHuaY10pJ29Mmv3ZrLPixF7sOvVkMR7TSlgrV7L-Uf12Wx9yJ8GlMf/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Bahasa Inggris (C, D, E, F, G)", link:"https://script.google.com/macros/s/AKfycbydTmCDa28GS2_M3nBNfSwz0uALkEa_KkgWxnZaWrluPkix3hkMzxBcc6FFvqN7b25Gbg/exec"},
     {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (A, B, C, D)", link:"https://script.google.com/macros/s/AKfycbwBMjDhHeuZSpLyFuuAQR0yTObr6xFIgadAC9n9PygtAN-K_2Q3KDwtjTm4YgT7NuR9/exec"},
-        {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (E, F, G)", link:"https://docs.google.com/forms/d/e/1FAIpQLSfceQEI5jugFVRFaWwtGj5JAHOcjdgY-b04vtRTsE7G_cyQVw/viewform?usp=dialog"},
+        {hari:"Selasa", tanggal:"02 Des 2025", jam:"2", waktu:"09.45–11.15", mapel:"Pendidikan Pancasila (E, F, G)", link:"https://script.google.com/macros/s/AKfycbxrvoPT6aYpm0s5G0qh8QUQylqjl6qg7DpGJPDucXHVeC01Za4hlBic78-DDx5Y5OJ-GQ/exec"},
   ],
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
@@ -72,6 +72,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
