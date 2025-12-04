@@ -11,6 +11,8 @@ const jadwalPerKelas = {
         {hari:"Kamis", tanggal:"04 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPS", link:"https://script.google.com/macros/s/AKfycbx2jii-sFamiMgxHKndhjdMf7s19LsSC41OfQDfEGFlw5pI2PTPJI6C2P4RdyhkNmnVmQ/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbw7wR4-XmJs7oLRWQHmRXHPxAfCQ2C14xSn9WlXxvF0JlFAXK8xTIzrgrsPYqMWwjI/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbwND03f4ws76_Xm4husN37mEU8AOeXGSszwpKv7Hs5Lb_KEgSZBAQD6r7dahNujdeft/exec"},
+        {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
     
     // tambahkan sesuai kebutuhan
     // tambahkan sesuai kebutuhan
@@ -27,6 +29,8 @@ const jadwalPerKelas = {
         {hari:"Kamis", tanggal:"04 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPS", link:"https://script.google.com/macros/s/AKfycbxi3QvQC5PTU752JYjiWGVKdr2lkEZdB-tJ51qCQ8o6krGbg_F8d_RgowDIUw4r74lL/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbwW9KjoBA3-l5LeVqU9tDUQLwA2WEwgsilBwXohZXebBTrb8XdHcjSGzdj7BoDOApxyJA/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbzI7xTNDr8qlZdwrLtoS_cze7Q5Wr7tOh_ElunWPY6X4yEcA5yXOvSkXJeePdqonk1etw/exec"},
+        {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
   ],
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
@@ -38,6 +42,8 @@ const jadwalPerKelas = {
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"IPS", link:"https://script.google.com/macros/s/AKfycbyNKxI7BnM86TUBrC6xFmKVz14s2Y_FHiuP6NDXkyZBZAyoeU51mgQNb8C3S4ttaip3/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbzxEnQ8qb1fbEhzA70F3MnJ3uFq7SEsqgk-xypaRP3v5rIA-wmFhglioEHyARciFgFEgg/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbxL_oZvxGWhxYDJ8QvPDhVO3DXX2Ck-hVwoJqcUN-SV1lY4-Sj-ck7EzBkUaYP6auUi_w/exec"},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
   ]
 };
 
@@ -89,6 +95,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
