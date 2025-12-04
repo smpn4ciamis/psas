@@ -12,7 +12,7 @@ const jadwalPerKelas = {
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbw7wR4-XmJs7oLRWQHmRXHPxAfCQ2C14xSn9WlXxvF0JlFAXK8xTIzrgrsPYqMWwjI/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbwND03f4ws76_Xm4husN37mEU8AOeXGSszwpKv7Hs5Lb_KEgSZBAQD6r7dahNujdeft/exec"},
         {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:"https://script.google.com/macros/s/AKfycbxQL24LOKMiDvBNv-HIz7T3CUkKCeTMobSFQVS1PboeOeGWoaqYtNV_D3cPrQBWt9YM/exec"},
-    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:"https://script.google.com/macros/s/AKfycbyV6Z44pc0mYVNeNAl8Zq1-UVvvQ27Hz62hFy8YxmSX6pT4l79W9TCwTRMbqArX4ZHF/exec"},
     
     // tambahkan sesuai kebutuhan
     // tambahkan sesuai kebutuhan
@@ -43,7 +43,7 @@ const jadwalPerKelas = {
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbzxEnQ8qb1fbEhzA70F3MnJ3uFq7SEsqgk-xypaRP3v5rIA-wmFhglioEHyARciFgFEgg/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbxL_oZvxGWhxYDJ8QvPDhVO3DXX2Ck-hVwoJqcUN-SV1lY4-Sj-ck7EzBkUaYP6auUi_w/exec"},
     {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:"https://script.google.com/macros/s/AKfycbzSDAacDTn9pSnFVY2WKeDE1-LkQsh17n7jj3A77itT_TSQu1YkFdm0qiIP9wPqfT9s/exec"},
-    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:"https://script.google.com/macros/s/AKfycbxYu6nuxSRsWUA9DC0tej05EvHgEcGc4gvNmUdiHb31soNu28Ex8hvyqHn8Qeg0NuHStw/exec"},
   ]
 };
 
@@ -95,6 +95,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
