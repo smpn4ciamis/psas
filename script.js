@@ -30,7 +30,7 @@ const jadwalPerKelas = {
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"2", waktu:"09.45–10.45", mapel:"Informatika", link:"https://script.google.com/macros/s/AKfycbwW9KjoBA3-l5LeVqU9tDUQLwA2WEwgsilBwXohZXebBTrb8XdHcjSGzdj7BoDOApxyJA/exec"},
     {hari:"Kamis", tanggal:"04 Des 2025", jam:"3", waktu:"11.00–12.00", mapel:"PJOK", link:"https://script.google.com/macros/s/AKfycbzI7xTNDr8qlZdwrLtoS_cze7Q5Wr7tOh_ElunWPY6X4yEcA5yXOvSkXJeePdqonk1etw/exec"},
         {hari:"Jum'at", tanggal:"05 Des 2025", jam:"1", waktu:"07.30–09.30", mapel:"Matematika", link:"https://script.google.com/macros/s/AKfycbxdBP8JiA1GqGlrivln9LwSzd7gCoehexjHOTxT8mLQyUvfiJiXIqYAnxideq5xoQyq/exec"},
-    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:""},
+    {hari:"Jum'at", tanggal:"05 Des 2025", jam:"2", waktu:"10.10–11.10", mapel:"Seni Budaya", link:"https://script.google.com/macros/s/AKfycbzenaoMP1GI7FsEqzwjO3raEFd3ArR7beueG8V-xGTB4bbJtYg2JI7rnuLLk350GEC5WQ/exec"},
   ],
   "9": [ /* isi jadwal kelas 9 */ 
     {hari:"Senin", tanggal:"01 Des 2025", jam:"1", waktu:"07.30–09.00", mapel:"Pendidikan Agama Islam", link:""},
@@ -95,6 +95,7 @@ document.getElementById('btnKembali').addEventListener('click', () => {
   document.getElementById('jadwalUjian').classList.remove('active');
   document.getElementById('pilihKelas').classList.add('active');
 });
+
 
 
 
